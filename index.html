@@ -3,82 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tree House</title>
+    <title>TreeHouse</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
 </head>
 <body>
-    
     <header>
-        <div class="container">
-           <div class="header-nav">
+        <div class="warp"> 
+            <div class="header-nav"> 
                 <div class="logo">
-                    <a href="#"><img src="img/header/logo.png" alt="logo"></a>
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
                 </div>
                 <nav>
                     <ul class="nav">
-                        <li class="nav__item">
-                        <a href="#" class="nav__link">Home</a></li>
-                        <li class="nav__item">
-                        <a href="#" class="nav__link">About</a></li>
-                        <li class="nav__item">
-                        <a href="#" class="nav__link">Blog</a></li>
-                        <li class="nav__item">
-                        <a href="#" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item">
-                        <a href="#" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a> </li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a> </li>
+                        <li class="nav__item"><a href="#" class="nav__link">Blog</a> </li>
+                        <li class="nav__item"><a href="#" class="nav__link">Portfolio</a> </li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a> </li>
                     </ul>
                 </nav>
-           </div> 
-        </div> 
-           
+            </div>
+        </div>
         <div class="header-intro">
-            <div class="header-intro-dark">
-              <div class="container">
-                   <h1 class="header-intro__title">Creative Digital Solutions</h1>
-                    <p class="header-intro__text">
-                       Proin iaculis purus consequat sem cure. 
-                    </p>
-                    <a href="#" class="header-intro__button">View Portfolio</a>
-              </div> 
+            <div class="header-intro-mask">
+                <div class="warp">
+                    <h1 class="header-intro__title">Creative Digital Solutions</h1>
+                    <p class="header-intro__desc">Proin iaculis purus consequat sem cure.</p>
+                    <a href="" class="btn">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="block">
+        <div class="warp">
+            <h2 class="block__title">Professional Services</h2>
+            <p class="block__subtitle">Proin iaculis purus consequat sem cure</p>
+            <div class="service">
+                <div class="feature">
+                    <div class="feature__img"><img src="img/icon-heart.svg" alt="heart"></div>
+                    <h3 class="feature__title">beautiful designs</h3>
+                    <p class="feature__desc">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__img"><img src="img/icon-mobile.svg" alt="mobile"></div>
+                    <h3 class="feature__title">responsive web</h3>
+                    <p class="feature__desc">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__img"><img src="img/icon-graph.svg" alt="graph"></div>
+                    <h3 class="feature__title">marketing tools</h3>
+                    <p class="feature__desc">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="block">
+        <div class="relax">
+
+            <div class="relax__left">
+                <div class="relax__gear"></div>
+            </div>
+            
+            <div class="relax__right">
+                <div class="relax-right__mask">
+                    <div class="relax-right__content">
+                        <h2 class="block__title block__title--white">Just relax <span class="block__amp">&</span><br> let us do the heavy lifting</h2>
+                        <p class="relax-block__subtitle">Proin iaculis purus consequat sem cure digni ssim. Donec <br> porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        <ul class="relax-right__list">
+                            <li class="relax-right__item">Initial Setup & Customizations</li>
+                            <li class="relax-right__item">Regular Updates</li>
+                            <li class="relax-right__item">Round The Clock Support</li>
+                        </ul>
+                        <a href="" class="btn relax-right__btn">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="block block-project">
+        <div class="warp">
+            <h2 class="block__title">latest project</h2>
+            <p class="block__subtitle">Proin iaculis purus consequat sem cure</p>
+            <div class="project">
+                <h3 class="project__title">Developing a framework</h3>
+                <p class="project__desc">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                <div class="project__list">
+                    <div class="project-list__items">
+                        <div class="project-list__img"><img src="img/project/basket.png" alt="basket"></div>
+                        <div class="project-list__text">
+                            <h4 class="project-list__title">E-Commerce Ready</h4>
+                            <p class="project-list__desc">Proin iaculis purus consequat sem cure digni ssim</p>
+                        </div>
+                    </div>
+                    <div class="project-list__items">
+                        <div class="project-list__img"><img src="img/project/laptop.png" alt="laptop"></div>
+                        <div class="project-list__text">
+                            <h4 class="project-list__title">Powerful SEO Features</h4>
+                            <p class="project-list__desc">Proin iaculis purus consequat sem cure digni ssim</p>
+                        </div>
+                    </div>
+                    <div class="project-list__items">
+                        <div class="project-list__img"><img src="img/project/locked.png" alt="security"></div>
+                        <div class="project-list__text">
+                            <h4 class="project-list__title">Secure Encryption</h4>
+                            <p class="project-list__desc">Proin iaculis purus consequat sem cure digni ssim</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="project__desc">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  aenean rhoncus posuere odio in.</p>
+                <a href="#" class="project__link">View Details &rarr;</a>
+            </div>
+        </div>
+        <div class="block-project__tablet"></div>
+    </section>
+    
+    
+    <section class="block block--light-gray">
+        <div class="wrap wrap-position">
+            <h2 class="block__title">culture & Values</h2>
+            <p class="block__subtitle">Proin iaculis purus consequat cure</p>
+
+            <div class="culture-line">
+                <div class="culture-line__item culture-line__item--left"></div>
+                <div class="culture-line__item culture-line__item--right"></div>
+            </div>
+            
+            <div class="culture">
+                <div class="feature">
+                    <div class="feature__img"><img src="img/project/music1.png" alt="heart"></div>
+                    <h3 class="feature__title">Work-Life Balance</h3>
+                    <p class="feature__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__img"><img src="img/project/graph1.png" alt="mobile"></div>
+                    <h3 class="feature__title">Quality Over Quantity</h3>
+                    <p class="feature__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__img"><img src="img/project/star1.png" alt="graph"></div>
+                    <h3 class="feature__title">Deliver Excellence</h3>
+                    <p class="feature__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="block">
+        <div class="warp">
+            <h2 class="block__title">our awesome clients</h2>
+            <p class="block__subtitle">Proin iaculis purus consequat sem cure.</p>
+            <div class="clients">
+                <div class="client">
+                    <div class="client__circle"></div> 
+                    <figure class="client__comment client__comment--first">
+                        <blockquote class="comment__text">“ Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus. ”</blockquote>
+                        <figcaption class="comment__author">- Jamie Richardson, Founder of Cocoa Media</figcaption>
+                    </figure>
+                </div> 
+
+                <div class="client client--back">
+                    <div class="client__circle"></div> 
+                    <figure class="client__comment client__comment--second">
+                        <blockquote class="comment__text">“ Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit aenean rhoncus. ”</blockquote>
+                        <figcaption class="comment__author">- Kim Thompson, Founder of Rainel</figcaption>
+                    </figure>
+                </div> 
+            </div>
+        </div>
+    </section>
+    
+    <section class="contacts-block">
+        <div class="warp">
+            <h2 class="contacts__title">Ready to talk about your next project?</h2>
+            <a href="#" class="contacts__button">Contact us</a>
+        </div>
+    </section>
+    
+    <section class="sponsors-block">
+        <div class="warp">
+            <ul class="sponsors">
+                <li class="sponsors__item"><img src="img/pair/envato.png" alt="envato"></li>
+                <li class="sponsors__item"><img src="img/pair/wordpress.png" alt="wordpress"></li>
+                <li class="sponsors__item"><img src="img/pair/tuts.png" alt="tuts"></li>
+                <li class="sponsors__item"><img src="img/pair/microlancer.png" alt="microlancer"></li>
+            </ul>  
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="info">
+            <div class="warp container--grid">
+               <div class="info-column">
+                    <h3 class="info-column__title">Contact Us</h3>
+                    <ul class="info-list">
+                        <li class="info-list__item info-list__item--start info-list__item--address">
+                            <div class="info-list__icon"><img src="/img/footer/location.png" alt="location"></div>
+                            <p class="info-list__text">55 Main St. Toronto, ON M1H 3A5</p>
+                        </li>
+                        <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/iPhone.png" alt="iPhone"></div>
+                            <p class="info-list__text">(416) 555-5252</p>
+                        </li>
+                        <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/email.png" alt="email"></div>
+                            <p class="info-list__text info-list__text--link">hello@treehouse.com</p>
+                        </li>
+                   </ul>
+                </div> 
+                <div class="info-column">
+                    <h3 class="info-column__title">Latest Posts</h3>
+                    <ul class="info-list">
+                        <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/newspaper.png" alt="news"></div>
+                            <p class="info-list__text info-list__text--link">Made With Love In Toronto</p>
+                        </li>
+                         <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/Photo.png" alt="Photo"></div>
+                            <p class="info-list__text info-list__text--link">Startup News & Emerging Tech</p>
+                        </li>
+                        <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/newspaper.png" alt="news"></div>
+                            <p class="info-list__text info-list__text--link">Bitcoin Will Soon Rule The World</p>
+                        </li>
+                        <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/newspaper.png" alt="news"></div>
+                            <p" class="info-list__text info-list__text--link">Wearable Technology On The Rise</a>
+                        </li>
+                        <li class="info-list__item">
+                            <div class="info-list__icon"><img src="/img/footer/Media.png" alt="Media"></div>
+                            <p class="info-list__text info-list__text--link">Learn Web Design In 30 Days!</p>
+                        </li>
+                   </ul>
+                </div> 
+                <div class="info-column">
+                    <h3 class="info-column__title">Latest Tweets</h3>
+                    <ul class="info-list">
+                        <li class="info-list__item info-list__item--start">
+                            <div class="info-list__icon"><img src="/img/footer/Twitter.png" alt="twitter"></div>
+                            <div class="info-list__text">
+                                <p class="info-list__text--link">Confucius: Life is really simple, but we insist on making it complicated. </p>
+                                <p class="info-list__tag">#famousquotes</p>
+                                <p class="info-list__time">8 mins ago</p>
+                            </div> 
+                        </li>
+                        <li class="info-list__item info-list__item--start">
+                            <div class="info-list__icon"><img src="/img/footer/Twitter.png" alt="twitter"></div>
+                            <div class="info-list__text">
+                                <p class="info-list__text--link">Grab the Free Treehouse web template at FreebiesXpress!</p>
+                                <p class="info-list__tag">#freebies #templates</p>
+                                <p class="info-list__time">2 days ago</p>
+                            </div> 
+                        </li>
+                    </ul>
+                </div> 
             </div> 
         </div> 
-    </header>
-    
-    <section class="services">
-        
-    </section>
-    
-    <section class="relax">
-        
-    </section>
-    
-    <section class="latest-project">
-        
-    </section>
-    
-    <section class="culture">
-        
-    </section>
-    
-    <section class="clients">
-        
-    </section>
-    
-    <section class="contact">
-        
-    </section>
-    
-    <section class="partners">
-        
-    </section>
-    
-    <footer>
-        
+
+        <div class="exile">
+            <div class="warp">
+                <div class="exile__int">
+                    <p class="exile__text">&#169; Copyright 2014 FreebiesXpress.com</p>
+                    <a href="#" class="exile__li exile__li--twitter"  target="_blank"><img src="/img/footer/Twitter.png" alt="Twitter"></a>   
+                    <a href="#" class="exile__li exile__li--facebook" target="_blank"><img src="/img/footer/Facebook.png" alt="Twitter"></a>    
+                    <a href="#" class="exile__li exile__li--pinterest" target="_blank"><img src="/img/footer/Pinterest.png" alt="Twitter"></a>   
+                    <a href="#" class="exile__li exile__li--google" target="_blank"><img src="/img/footer/Google+.png" alt="Twitter"></a> 
+                </div> 
+            </div>   
+        </div> 
     </footer>
-    
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/app.js"></script>
+
 </body>
 </html>
